@@ -1,0 +1,8 @@
+fiona
+pandas
+numpy
+geopandas
+bokeh
+matplotlib
+xlrd
+openpyxl
