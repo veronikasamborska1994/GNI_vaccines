@@ -52,9 +52,9 @@ for file in mypath:
     df = pd.ExcelFile(file) 
     names = df.sheet_names
     if 'Vaccinations by Region & Age' in names:
-        df = pd.read_excel(mypath+file, 'Vaccinations by Region & Age') 
+        df = pd.read_excel(file, 'Vaccinations by Region & Age') 
     elif 'NHS Region' in names:
-        df = pd.read_excel(mypath+file, 'NHS Region') 
+        df = pd.read_excel(file, 'NHS Region') 
         
     cumulative_total_to_date = {}
   
